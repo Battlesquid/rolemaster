@@ -55,7 +55,7 @@ bot.on('ready', () => {
 	bot.user.setStatus('online')
 	bot.user.setPresence({
 		game: {
-			name: bot.guilds.array().length + ' servers | UNDER MAINTENANCE', 
+			name: bot.guilds.array().length + ' servers', 
       type: "WATCHING"
 		}
 	});
